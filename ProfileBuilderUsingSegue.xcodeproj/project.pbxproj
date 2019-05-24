@@ -12,6 +12,11 @@
 		09F1AB1B22986A8400A1BE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F1AB1922986A8400A1BE3B /* Main.storyboard */; };
 		09F1AB1D22986A8500A1BE3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09F1AB1C22986A8500A1BE3B /* Assets.xcassets */; };
 		09F1AB2022986A8500A1BE3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F1AB1E22986A8500A1BE3B /* LaunchScreen.storyboard */; };
+		09F1AB2A2298706E00A1BE3B /* ViewControllerForProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1AB292298706E00A1BE3B /* ViewControllerForProfile.swift */; };
+		09F1AB2E229874BC00A1BE3B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1AB2D229874BC00A1BE3B /* User.swift */; };
+		09F1AB302298876300A1BE3B /* EditNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1AB2F2298876300A1BE3B /* EditNameViewController.swift */; };
+		09F1AB322298908300A1BE3B /* UpdatePassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1AB312298908300A1BE3B /* UpdatePassViewController.swift */; };
+		09F1AB342298939300A1BE3B /* UpdateDeptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F1AB332298939300A1BE3B /* UpdateDeptViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		09F1AB1C22986A8500A1BE3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09F1AB1F22986A8500A1BE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09F1AB2122986A8500A1BE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09F1AB292298706E00A1BE3B /* ViewControllerForProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForProfile.swift; sourceTree = "<group>"; };
+		09F1AB2D229874BC00A1BE3B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		09F1AB2F2298876300A1BE3B /* EditNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNameViewController.swift; sourceTree = "<group>"; };
+		09F1AB312298908300A1BE3B /* UpdatePassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePassViewController.swift; sourceTree = "<group>"; };
+		09F1AB332298939300A1BE3B /* UpdateDeptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDeptViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				09F1AB1C22986A8500A1BE3B /* Assets.xcassets */,
 				09F1AB1E22986A8500A1BE3B /* LaunchScreen.storyboard */,
 				09F1AB2122986A8500A1BE3B /* Info.plist */,
+				09F1AB292298706E00A1BE3B /* ViewControllerForProfile.swift */,
+				09F1AB2D229874BC00A1BE3B /* User.swift */,
+				09F1AB2F2298876300A1BE3B /* EditNameViewController.swift */,
+				09F1AB312298908300A1BE3B /* UpdatePassViewController.swift */,
+				09F1AB332298939300A1BE3B /* UpdateDeptViewController.swift */,
 			);
 			path = ProfileBuilderUsingSegue;
 			sourceTree = "<group>";
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09F1AB342298939300A1BE3B /* UpdateDeptViewController.swift in Sources */,
+				09F1AB322298908300A1BE3B /* UpdatePassViewController.swift in Sources */,
+				09F1AB2E229874BC00A1BE3B /* User.swift in Sources */,
 				09F1AB1822986A8400A1BE3B /* ViewController.swift in Sources */,
+				09F1AB2A2298706E00A1BE3B /* ViewControllerForProfile.swift in Sources */,
 				09F1AB1622986A8400A1BE3B /* AppDelegate.swift in Sources */,
+				09F1AB302298876300A1BE3B /* EditNameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
